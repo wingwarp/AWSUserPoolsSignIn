@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
    s.source       = { :git => 'https://github.com/wingwarp/AWSUserPoolsSignIn.git',
                       :tag => s.version}
    s.requires_arc = true
-   s.dependency 'AWSCognitoIdentityProvider', '2.12.0'
-   s.dependency 'AWSAuthCore', '2.12.0'
+   s.dependency 'AWSCognitoIdentityProvider', '2.9.3'
+   s.dependency 'AWSAuthCore', '2.9.3'
    s.source_files = 'AWSAuthSDK/Sources/AWSUserPoolsSignIn/**/*.{h,m}'
    s.public_header_files = 'AWSAuthSDK/Sources/AWSUserPoolsSignIn/*.{h}'
    s.private_header_files = 'AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/*.{h}'
